@@ -3,7 +3,7 @@
 int main() {
     char operator;
     double firstNumber,secondNumber;
-    printf("Enter an operator (+, -, *,): ");
+    printf("input an operator (+, -, *,): ");
     scanf("%c", &operator);
     printf("Enter two operands: ");
     scanf("%lf %lf",&firstNumber, &secondNumber);
@@ -25,6 +25,7 @@ int main() {
         default:
             printf("Error! operator is not correct");
     }
+    printf("bye\n");
 
     return 0;
 }
