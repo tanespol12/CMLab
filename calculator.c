@@ -3,9 +3,10 @@
 int main() {
     char operator;
     double firstNumber,secondNumber;
+    printf("Welcome to calculator program");
     printf("Enter an operator (+, -, *,): ");
     scanf("%c", &operator);
-    printf("Enter two operands: ");
+    printf("Enter two operandsssssssss: ");
     scanf("%lf %lf",&firstNumber, &secondNumber);
     switch(operator)
     {
